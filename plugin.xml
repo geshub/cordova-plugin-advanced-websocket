@@ -50,6 +50,8 @@
         <source-file src="src/ios/CordovaWebsocketPlugin.m" />
 
         <podspec>
+             <config>
+             </config>
             <pods use-frameworks="true">
                 <pod name="SocketRocket" spec="0.7.0" />
             </pods>
