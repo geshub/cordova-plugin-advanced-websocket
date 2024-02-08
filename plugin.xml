@@ -54,7 +54,7 @@
                  <source url="https://cdn.cocoapods.org/"/>
              </config>
             <pods>
-                <pod name="SocketRocket" spec="0.5.1" />
+                <pod name="SocketRocket" spec="0.5.1" path="resources/other/ios/SocketRocket.podspec" />
                 <!-- <pod name="SocketRocket" spec="0.7.0" /> -->
             </pods>
         </podspec>
