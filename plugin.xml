@@ -51,6 +51,7 @@
 
         <podspec>
              <config>
+                 <source url="https://cdn.cocoapods.org/"/>
              </config>
             <pods use-frameworks="true">
                 <pod name="SocketRocket" spec="0.5.1" />
