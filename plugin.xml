@@ -55,7 +55,7 @@
              </config>
             <pods>
                 <!-- <pod name="SocketRocket" spec="0.5.1" /> -->
-                <pod name="SocketRocket" spec="0.7.0" />
+                <pod name="SocketRocket" spec="0.7.0" use-frameworks="true"/>
             </pods>
         </podspec>
     </platform>
