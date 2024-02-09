@@ -107,8 +107,10 @@
         _pingCount++;
         _awaitingPong = YES;
         @try {
+             NSError *error = nil;
+             [_webSocket sendPing:data error:&error];
             //[_webSocket sendPing:data error:NULL];
-            [_webSocket sendPing:data];
+            //[_webSocket sendPing:data];
         }
         @catch (NSException *exception) {
             // Swallow exception 
